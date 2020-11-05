@@ -15,3 +15,9 @@ print(name)
 
 number = 7
 print(number)
+
+apple_print = 200
+apple_count = 8 
+
+total_price = apple_print + apple_count
+print(total_price)
