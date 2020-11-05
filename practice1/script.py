@@ -9,3 +9,9 @@ print("9+3")
 print(9/2)
 print(7*5)
 print(5%2)
+
+name = "にんじゃわんこ"
+print(name)
+
+number = 7
+print(number)
