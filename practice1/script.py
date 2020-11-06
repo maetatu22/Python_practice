@@ -38,4 +38,4 @@ age = 24
 print("私は"+str(age)+"歳です")
 
 count = "5"
-print(int(count))
+print(int(count)+1)
