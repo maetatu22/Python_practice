@@ -1,3 +1,6 @@
+from typing import Counter
+
+
 print("Hello World")
 
 print(7)
@@ -30,3 +33,9 @@ print(money)
 
 my_name = "にんじゃわんこ"
 print("私は"+my_name+"です")
+
+age = 24
+print("私は"+str(age)+"歳です")
+
+count = "5"
+print(int(count))
