@@ -21,3 +21,9 @@ apple_count = 8
 
 total_price = apple_print + apple_count
 print(total_price)
+
+money = 2000
+print(money)
+
+money += 5000
+print(money)
