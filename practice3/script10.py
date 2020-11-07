@@ -1,6 +1,10 @@
+money = 1000
+
 items = {"apple": 100, "banana": 200, "orange": 400}
 for item_name in items:
   print("---------------------------------------------")
+  print("財布には"+str(money)+"円入っています")
+
   item_price = str(items[item_name])
   print(item_name + "は1個" + item_price + "円です")
 
@@ -11,3 +15,10 @@ for item_name in items:
   count = int(input_count)
   total_price = items[item_name] * count
   print("支払い金額は" + str(total_price) + "円です")
+
+  if money >= total_price:
+    print(item_name + "を" + input_count + "個買いました")
+    money -= total_price
+  else:
+    print("お金が足りません")
+    print(item_name+"を買えませんでした")
