@@ -1,8 +1,7 @@
 def validate(hand):
   if hand < 0 or hand > 2:
     return False
-  else:
-    return True
+  return True
 
 def print_hand(hand, name="ゲスt"):
   hands = ["グー", "チョキ", "パー"]
