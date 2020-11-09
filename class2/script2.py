@@ -1,4 +1,7 @@
 class MenuItem:
+  def __init__(self):
+    print("MenuItemクラスのインスタンスが生成されました！")
+
   def info(self):
     return self.name + ': ¥' + str(self.price)
 
