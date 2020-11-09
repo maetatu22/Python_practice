@@ -6,3 +6,8 @@ class Food(MenuItem):
 
   def calorie_info(self):
     print(str(self.calorie) + 'kcalです')
+
+  def __init__(self, name, price, calorie):
+    self.name = name
+    self.price = price
+    self.calorie = calorie
