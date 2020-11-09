@@ -8,6 +8,5 @@ class Food(MenuItem):
     print(str(self.calorie) + 'kcalです')
 
   def __init__(self, name, price, calorie):
-    self.name = name
-    self.price = price
+    super().__init__(name, price)
     self.calorie = calorie
