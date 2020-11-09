@@ -1,6 +1,6 @@
 class MenuItem: 
   def info(self):
-    print("メニューの名前と値段が表示されます")
+    print(self.name + ": ¥" + str(self.price))
 
 
 menu_item1 = MenuItem()
